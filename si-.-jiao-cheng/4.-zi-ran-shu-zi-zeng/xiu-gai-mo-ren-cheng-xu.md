@@ -40,5 +40,5 @@ actor Counter {
 
 需要更多关于stable和flexible变量的信息，请 在[_Motoko Programming Language Guide_](http://language-guide:motoko.html)查看[Stable variables and upgrade methods](http://language-guide:upgrades.html) 
 
-    4. 保存并关闭文件
+4. 保存并关闭文件
 

@@ -13,9 +13,9 @@
 cp src/calc/main.mo src/calc/calc_main.mo
 ```
 
-    3. 编辑器中打开src/calc/calc\_main.mo文件并删除已有内容
+3. 编辑器中打开src/calc/calc\_main.mo文件并删除已有内容
 
-    4. 复制粘贴下面的代码到calc\_main.mo文件
+4. 复制粘贴下面的代码到calc\_main.mo文件
 
 ```text
 // This single-cell calculator defines one calculator instruction per
@@ -51,5 +51,5 @@ actor Calc {
 
 示例代码中使用了整数类型，允许使用正数或负数。如果想要使代码只处理正数，可以将数据类型改为自然数（Nat）
 
-    5. 保存修改并关闭文件继续
+5. 保存修改并关闭文件继续
 
