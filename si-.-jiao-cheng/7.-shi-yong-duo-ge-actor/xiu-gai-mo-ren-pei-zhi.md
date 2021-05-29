@@ -19,9 +19,9 @@ dfx.json配置修改步骤
 
 由于你已经在配置文件中添加了这个canisters的设置，你必须要在大括号后面添加一个逗号来包裹assistant的配置。
 
-    2. 删除文件中的multiple\_actors\_assets键
+2. 删除文件中的multiple\_actors\_assets部分
 
-    3. 为rock\_paper\_scissors和daemon程序添加新的canister名称，源码位置和类型。
+3. 为rock\_paper\_scissors和daemon程序添加新的canister名称，源码位置和类型。
 
 修改后的配置文件如下
 
@@ -46,7 +46,7 @@ dfx.json配置修改步骤
       "packtool": ""
     }
   },
-  "dfx": "0.6.26",
+  "dfx": "0.7.0",
   "networks": {
     "local": {
       "bind": "127.0.0.1:8000",
@@ -55,24 +55,23 @@ dfx.json配置修改步骤
   },
   "version": 1
 }
-
 ```
 
-    4. 保存并关闭配置文件继续
+4. 保存并关闭配置文件继续
 
-    5. 运行下面的命令修改默认源码文件名称匹配dfx.json文件中的配置
+5. 运行下面的命令修改默认源码文件名称匹配dfx.json文件中的配置
 
 ```text
 cp -r src/multiple_actors/ src/assistant/
 ```
 
-    6. 运行下面的命令复制assistant源码文件目录为rock\_paper\_scissors acotr创建主程序文件
+6. 运行下面的命令复制assistant源码文件目录为rock\_paper\_scissors acotr创建主程序文件
 
 ```text
 cp -r src/assistant/ src/rock_paper_scissors/
 ```
 
-    7. 运行下面的命令复制assistant源码文件目录为daemon创建主程序文件
+7. 运行下面的命令复制assistant源码文件目录为daemon创建主程序文件
 
 ```text
 cp -r src/assistant/ src/daemon/
